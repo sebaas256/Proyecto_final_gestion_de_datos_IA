@@ -1,0 +1,28 @@
+
+name: Generar Reporte DevOps Automático
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'  # Todos los lunes a las 8 AM
+  workflow_dispatch:     # Permite ejecución manual
+
+jobs:
+  generar-reporte:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Instalar dependencias del sistema y Python
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libharfbuzz-subset0
+          pip install pandas matplotlib jinja2 weasyprint python-docx pyarrow openpyxl
+      - name: Ejecutar pipeline de reporteria DevOps
+        run: python scripts/pipeline_reporteria_devops.py
+      - name: Subir artefactos
+        uses: actions/upload-artifact@v3
+        with:
+          name: reportes-devops-generados
+          path: exportaciones/

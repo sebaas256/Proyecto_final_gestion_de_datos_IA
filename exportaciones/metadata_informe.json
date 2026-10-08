@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "fecha_generacion": "2026-10-08T05:18:48.637770",
+  "periodo_analizado": "01/01/2026 - 30/06/2026",
+  "fuentes_datos": [
+    "dataset_limpio.csv (Guía 2 - Transaccional)",
+    "Support_tickets_processed.csv (Guía 2 - Soporte)",
+    "Dataset anonimizado con tokens (Guía 4 - Gobernanza)",
+    "dataset_devops_geografico_downtime.csv (Guía 6 - Geoespacial)",
+    "reporte_calidad_ProyctoFinal02_equipo.xlsx (Auditoría Calidad)"
+  ],
+  "filtros_aplicados": {
+    "periodo": "01/01/2026 - 30/06/2026",
+    "areas_producto": "todas",
+    "prioridades_ticket": "todas",
+    "departamentos_geo": "todos"
+  },
+  "kpis": {
+    "total_incidentes": 4000,
+    "downtime_total_horas": 20176.533333333333,
+    "tiempo_resolucion_avg": 6.314362974161626,
+    "disponibilidad_avg": 97.48086272026532,
+    "empresas_anonimizadas": 25
+  },
+  "archivos_generados": [
+    "Reporte_Gerencial_DevOps_v1.0.pdf",
+    "Reporte_Gerencial_DevOps_v1.0.docx",
+    "Reporte_DevOps_Metrics.html"
+  ],
+  "generado_por": "pipeline_reporteria_devops.py"
+}
