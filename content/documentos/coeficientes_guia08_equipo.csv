@@ -1,0 +1,7 @@
+variable,coeficiente,efecto_tipico,importancia
+despliegues,0.3207,3.1766,Alta
+media_movil_7,-0.1313,-0.213,Baja
+dia_semana,-0.0656,-0.132,Baja
+mes,0.0361,0.0494,Baja
+lag_7,-0.0086,-0.0409,Baja
+lag_1,0.0036,0.0172,Baja
