@@ -1,0 +1,8 @@
+indicador,valor,unidad
+total_despliegues,15000.0,conteo
+tasa_fallo_despliegues,10.0,porcentaje
+total_rollbacks,1500.0,conteo
+total_incidentes,4000.0,conteo
+lead_time_promedio,12.53,horas
+tiempo_resolucion_promedio,6.31,horas
+disponibilidad_promedio,97.48,porcentaje

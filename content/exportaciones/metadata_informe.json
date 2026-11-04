@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "fecha_generacion": "2026-10-08T05:18:48.637770",
+  "fecha_generacion": "2026-11-04T02:53:15.721070",
   "periodo_analizado": "01/01/2026 - 30/06/2026",
   "fuentes_datos": [
-    "dataset_limpio.csv (Guía 2 - Transaccional)",
-    "Support_tickets_processed.csv (Guía 2 - Soporte)",
-    "Dataset anonimizado con tokens (Guía 4 - Gobernanza)",
-    "dataset_devops_geografico_downtime.csv (Guía 6 - Geoespacial)",
-    "reporte_calidad_ProyctoFinal02_equipo.xlsx (Auditoría Calidad)"
+    "dataset_limpio_final.xlxs (Guía 2 )",
+    "Support_tickets_processed.csv (Guía 2)",
+    "Dataset anonimizado con tokens (Guía 4)",
+    "dataset_devops_geografico_downtime.csv (Guía 6)",
+    "reporte_calidad_ProyctoFinal02_equipo.xlsx"
   ],
   "filtros_aplicados": {
     "periodo": "01/01/2026 - 30/06/2026",
@@ -18,7 +18,7 @@
   "kpis": {
     "total_incidentes": 4000,
     "downtime_total_horas": 20176.533333333333,
-    "tiempo_resolucion_avg": 6.314362974161626,
+    "tiempo_resolucion_avg": 6.314362974161627,
     "disponibilidad_avg": 97.48086272026532,
     "empresas_anonimizadas": 25
   },

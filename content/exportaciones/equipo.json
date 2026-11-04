@@ -1,0 +1,23 @@
+{
+  "nombre_equipo": "DevOps Analytics Team",
+  "proyecto": "DevOps Metrics Analytics",
+  "periodo": "01/01/2026 - 30/06/2026",
+  "integrantes": [
+    {
+      "nombre": "Sebastián González",
+      "rol": "Líder"
+    },
+    {
+      "nombre": "Alan Aguirre",
+      "rol": "Ingeniero de Datos"
+    },
+    {
+      "nombre": "Kevin Hernández",
+      "rol": "Analista de Datos"
+    },
+    {
+      "nombre": "Alexis Pérez",
+      "rol": "Analista de Calidad"
+    }
+  ]
+}

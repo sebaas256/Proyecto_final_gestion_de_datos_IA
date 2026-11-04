@@ -1,0 +1,5 @@
+nombre,rol,acceso
+Sebastián González,Líder,Acceso total para la toma de decisiones y definición de la política de datos
+Alan Aguirre,Ingeniero de Datos,Acceso a los datos crudos originales para aplicar scripts de limpieza y minimización
+Kevin Hernández,Analista de Datos,Solo vista protegida (sin identificadores) para crear reportes
+Alexis Pérez,Analista de Calidad,Solo vista protegida (sin identificadores) para validar que no haya fugas de información
