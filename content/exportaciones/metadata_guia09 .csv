@@ -1,0 +1,2 @@
+fecha_ejecucion,python,scikit_learn,pandas,numpy,random_state,n_train,n_test,n_features,modelo_candidato
+2026-11-06T17:44:37.712695,3.13.18,1.6.1,2.2.3,2.4.6,42,139,35,10,Random Forest
