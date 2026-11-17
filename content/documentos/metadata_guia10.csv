@@ -1,0 +1,2 @@
+fecha_ejecucion,python,scikit_learn,random_state,n_combinaciones,n_folds,n_train,n_test,tiempo_busqueda_s,mejores_parametros,modelo_candidato_g9,modelo_optimizado,mae_guia9,mae_optimizado,mejora_vs_g9_%
+2026-11-17T16:37:26.656875,3.13.18,1.6.1,42,36,4,139,35,44.62,"{'modelo__max_depth': 10, 'modelo__max_features': 0.7, 'modelo__min_samples_leaf': 5, 'modelo__n_estimators': 200}",RandomForestRegressor,RandomForestRegressor,14.87,14.86,0.04
